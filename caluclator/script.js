@@ -7,10 +7,9 @@ function appendToDisplay(value) {
 function clearDisplay() {
     display.value = '';
 }
-
-function Back() {
-   var ev = document.getElementById('result');
-   ev.value = ev.value.slice(0,-1);
+function back(){
+    var ev=document.getElementById("result");
+    ev.value=ev.value.slice(0,-1);
 }
 
 function calculate() {
